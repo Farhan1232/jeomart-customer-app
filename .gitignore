@@ -1,0 +1,44 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/captures/
+android/app/release/
+android/app/debug/
+android/app/profile/
+*.apk
+*.aab
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/ephemeral/
+**/xcuserdata/
+
+# Secrets — never commit these
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist

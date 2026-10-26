@@ -1,0 +1,68 @@
+PODS:
+  - Flutter (1.0.0)
+  - Google-Maps-iOS-Utils (6.1.0):
+    - GoogleMaps (~> 9.0)
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - Google-Maps-iOS-Utils (< 7.0, >= 5.0)
+    - GoogleMaps (< 11.0, >= 8.4)
+  - GoogleMaps (9.4.0):
+    - GoogleMaps/Maps (= 9.4.0)
+  - GoogleMaps/Maps (9.4.0)
+  - location (0.0.1):
+    - Flutter
+  - razorpay-core-pod (1.0.7)
+  - razorpay-pod (1.5.7):
+    - razorpay-core-pod (= 1.0.7)
+  - razorpay_flutter (1.1.10):
+    - Flutter
+    - razorpay-pod
+  - sign_in_with_apple (0.0.1):
+    - Flutter
+  - video_compress (0.3.0):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - razorpay_flutter (from `.symlinks/plugins/razorpay_flutter/ios`)
+  - sign_in_with_apple (from `.symlinks/plugins/sign_in_with_apple/ios`)
+  - video_compress (from `.symlinks/plugins/video_compress/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - razorpay-core-pod
+    - razorpay-pod
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  razorpay_flutter:
+    :path: ".symlinks/plugins/razorpay_flutter/ios"
+  sign_in_with_apple:
+    :path: ".symlinks/plugins/sign_in_with_apple/ios"
+  video_compress:
+    :path: ".symlinks/plugins/video_compress/ios"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  Google-Maps-iOS-Utils: 0a484b05ed21d88c9f9ebbacb007956edd508a96
+  google_maps_flutter_ios: 17552876e72723da1d41accc22f03b5f7afbde69
+  GoogleMaps: 0608099d4870cac8754bdba9b6953db543432438
+  location: 155caecf9da4f280ab5fe4a55f94ceccfab838f8
+  razorpay-core-pod: c7f3ac3d214c1a7fac4e9a59c1de7eac02130573
+  razorpay-pod: 3c91ef4895d389968a5c56a6f1e9943e44b50fa0
+  razorpay_flutter: 0e98e4fcaae27ad50e011d85f66d85e0a008754a
+  sign_in_with_apple: c5dcc141574c8c54d5ac99dd2163c0c72ad22418
+  video_compress: f2133a07762889d67f0711ac831faa26f956980e
+
+PODFILE CHECKSUM: e475883c4b6ee7c2f5d1a6661012eafdb17ba529
+
+COCOAPODS: 1.16.2
